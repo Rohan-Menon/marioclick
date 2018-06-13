@@ -1,0 +1,30 @@
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 20px;
+    align-content: center;
+    justify-content: center;
+    margin-left:20px;   
+}
+
+
+.score {
+    margin: 15px auto 0px auto;
+    max-width: 100%;
+    text-align: center;
+    color: #ffffff;
+    padding: 10px;
+    background-color:#0000ff;
+}
+
+.topscore{
+    background-color: #ff0000;
+    color: #ffffff;
+    font-size: 25px;
+}
+
+h4 {
+    
+    max-width: 100%;
+    text-align: center;
+}
